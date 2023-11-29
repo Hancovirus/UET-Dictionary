@@ -67,7 +67,6 @@ public class Game2Controller extends Game implements Initializable {
     public void handleOptionClick(ActionEvent event) {
         if (numguess > 1) {
             Button clickedButton = (Button) event.getSource();
-            System.out.println(answer);
             Character buttontext = clickedButton.getText().charAt(0);
             char[] sArray = currentString.toCharArray();
             if (answer.contains(String.valueOf(buttontext))) {
