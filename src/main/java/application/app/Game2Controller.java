@@ -38,7 +38,7 @@ public class Game2Controller extends Game implements Initializable {
 
     @Override
     public void initQuestion() {
-        game.readAnswersFromFile("src/main/application/app/resourcesques2.txt");
+        game.readAnswersFromFile("src/main/resources/application/app/ques2.txt");
     }
 
     @Override
