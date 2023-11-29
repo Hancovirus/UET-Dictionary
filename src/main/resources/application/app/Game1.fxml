@@ -36,13 +36,18 @@
       <Button fx:id="optionB" layoutX="450.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="100.0" prefWidth="300.0" styleClass="game-word-button" stylesheets="@application.css" text="B" />
       <Button fx:id="optionD" layoutX="450.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="100.0" prefWidth="300.0" styleClass="game-word-button" stylesheets="@application.css" text="D" />
       <Button fx:id="optionC" layoutX="50.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="100.0" prefWidth="300.0" styleClass="game-word-button" stylesheets="@application.css" text="C" />
-      <Pane fx:id="gameOver" layoutX="200.0" layoutY="100.0" prefHeight="400.0" prefWidth="400.0" styleClass="game-pane">
+      <Pane fx:id="gameOver" layoutX="200.0" layoutY="75.0" prefHeight="400.0" prefWidth="400.0">
          <children>
-            <Label layoutX="100.0" layoutY="80.0" styleClass="game-label" text="Game Over" />
-            <Label fx:id="lastScore" layoutX="39.0" layoutY="156.0" prefHeight="44.0" prefWidth="348.0" styleClass="game-label" text="Your Score :" />
-            <Label fx:id="HighScore" layoutX="39.0" layoutY="227.0" prefHeight="44.0" prefWidth="348.0" styleClass="game-label" text="High Score :" />
-            <Button fx:id="playAgain" layoutX="25.0" layoutY="310.0" mnemonicParsing="false" onAction="#handlePlayAgainButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" text="Retry" />
-            <Button fx:id="exit" layoutX="225.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleExitButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" text="Exit" />
+            <ImageView fitHeight="550.0" fitWidth="600.0" layoutX="-55.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/gameover.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="100.0" layoutY="47.0" styleClass="game-over-label" text="Game Over" />
+            <Label fx:id="lastScore" layoutX="39.0" layoutY="125.0" prefHeight="44.0" prefWidth="348.0" styleClass="game-over-label" text="Your Score :" />
+            <Label fx:id="HighScore" layoutX="39.0" layoutY="188.0" prefHeight="44.0" prefWidth="348.0" styleClass="game-over-label" text="High Score :" />
+            <Button fx:id="playAgain" layoutX="25.0" layoutY="300.0" mnemonicParsing="false" onAction="#handlePlayAgainButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" text="Retry" />
+            <Button fx:id="exit" layoutX="220.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleExitButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" text="Exit" />
          </children>
       </Pane>
    </children>

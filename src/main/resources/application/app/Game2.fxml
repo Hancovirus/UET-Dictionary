@@ -16,7 +16,7 @@
             <Image url="@Icon/Background.png" />
          </image>
       </ImageView>
-      <Button  blendMode="SRC_ATOP" layoutX="400.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="50.0" prefWidth="50.0" text="Y" textAlignment="CENTER">
+      <Button blendMode="SRC_ATOP" layoutX="400.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="50.0" prefWidth="50.0" text="Y" textAlignment="CENTER">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -41,7 +41,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
-      <Button  layoutX="150.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="50.0" prefWidth="50.0" text="Q" textAlignment="CENTER">
+      <Button layoutX="150.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="50.0" prefWidth="50.0" text="Q" textAlignment="CENTER">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -166,33 +166,39 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <Pane fx:id="gameOver" layoutX="200.0" layoutY="103.0" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #dfff00;">
+      <Pane fx:id="gameOver" layoutX="200.0" layoutY="76.0" prefHeight="400.0" prefWidth="400.0">
          <children>
-            <Button blendMode="SRC_ATOP" layoutX="40.0" layoutY="295.0" mnemonicParsing="false" onAction="#handlePlayAgainButtonClick" prefHeight="60.0" prefWidth="120.0" text="Again" textAlignment="CENTER">
+            <ImageView fitHeight="550.0" fitWidth="600.0" layoutX="-55.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/gameover.png" />
+               </image>
+            </ImageView>
+            <Button blendMode="SRC_ATOP" layoutX="25.0" layoutY="300.0" mnemonicParsing="false" onAction="#handlePlayAgainButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" stylesheets="@application.css" text="Again" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Button>
-            <Button blendMode="SRC_ATOP" layoutX="240.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleExitButtonClick" prefHeight="60.0" prefWidth="120.0" text="Exit" textAlignment="CENTER">
+            <Button blendMode="SRC_ATOP" layoutX="220.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleExitButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" stylesheets="@application.css" text="Exit" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Button>
-            <Label layoutX="40.0" layoutY="154.0" prefHeight="29.0" prefWidth="231.0" text="Your word is: " wrapText="true">
+            <Label layoutX="40.0" layoutY="177.0" prefHeight="29.0" prefWidth="231.0" text="Your word is: " wrapText="true">
                <font>
                   <Font name="Berlin Sans FB" size="41.0" />
                </font>
             </Label>
-            <Label fx:id="ans" layoutX="40.0" layoutY="200.0" prefHeight="28.0" prefWidth="320.0" textAlignment="CENTER" wrapText="true">
+            <Label fx:id="ans" layoutX="40.0" layoutY="224.0" prefHeight="28.0" prefWidth="320.0" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="Berlin Sans FB" size="41.0" />
                </font>
             </Label>
-            <Label fx:id="guessIt" prefHeight="161.0" prefWidth="376.0" text="show" textAlignment="CENTER" wrapText="true">
+            <Label fx:id="guessIt" layoutX="12.0" layoutY="16.0" prefHeight="161.0" prefWidth="376.0" text="Your word is right" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="Berlin Sans FB" size="60.0" />
                </font>
             </Label>
-         </children></Pane>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

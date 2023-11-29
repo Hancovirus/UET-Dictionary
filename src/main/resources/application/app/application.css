@@ -213,7 +213,14 @@
     -fx-text-fill: white; /* Đặt màu chữ là màu trắng */
     -fx-font-family: "Berlin Sans FB"; /* Set font family */
     -fx-font-size: 40px; /* Đặt kích thước chữ */
+    -fx-font-weight: normal;
+    -fx-wrap-text: true;
+}
+.game-over-label {
+    -fx-text-fill:black; /* Đặt màu chữ là màu trắng */
     -fx-font-family: "Berlin Sans FB"; /* Set font family */
+    -fx-font-size: 40px; /* Đặt kích thước chữ */
+
     -fx-font-weight: normal;
     -fx-wrap-text: true;
 }
