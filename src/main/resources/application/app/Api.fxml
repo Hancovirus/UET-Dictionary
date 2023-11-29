@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to top, #00c6fb 0%, #005bea 100%);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.app.ApiController">
+   <children>
+      <Button fx:id="AddWord" layoutX="7.0" layoutY="156.0" mnemonicParsing="false" onAction="#switchToAddScene" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/Add.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Add/Update" />
+         </tooltip></Button>
+      <Button fx:id="GGAPI" layoutX="7.0" layoutY="199.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/Trans.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Google Translate" />
+         </tooltip></Button>
+      <Button fx:id="Game" layoutX="7.0" layoutY="245.0" mnemonicParsing="false" onAction="#switchToGameScene" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/game.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Game" />
+         </tooltip></Button>
+      <Button fx:id="Exit" layoutX="7.0" layoutY="542.0" mnemonicParsing="false" onAction="#Exit" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/Exit.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Exit" />
+         </tooltip></Button>
+      <Button fx:id="Search" layoutX="7.0" layoutY="112.0" mnemonicParsing="false" onAction="#switchToSearchScene" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/Search.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Search" />
+         </tooltip>
+      </Button>
+      <Pane layoutX="65.0" layoutY="5.0" prefHeight="584.0" prefWidth="720.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 25; -fx-background-radius: 25;">
+         <children>
+            <Pane fx:id="TranslatePane" layoutX="33.0" layoutY="83.0" prefHeight="55.0" prefWidth="650.0" stylesheets="@application.css">
+               <children>
+                  <Button fx:id="Swap" layoutX="303.0" layoutY="5.0" mnemonicParsing="false" onAction="#swapTrans" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Icon/Swap.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label fx:id="LangIn" alignment="CENTER" layoutX="60.0" layoutY="13.0" prefHeight="30.0" prefWidth="185.0" text="English">
+                     <graphic>
+                        <ImageView fx:id="LangInImg" fitHeight="25.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Icon/english.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label fx:id="LangOut" alignment="CENTER" layoutX="400.0" layoutY="13.0" prefHeight="30.0" prefWidth="185.0" text="Vietnamese">
+                     <graphic>
+                        <ImageView fx:id="LangOutImg" fitHeight="25.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Icon/vietnamese.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="Trans" layoutX="304.0" layoutY="522.0" mnemonicParsing="false" onAction="#translateWord" prefHeight="43.0" prefWidth="124.0" stylesheets="@application.css" text="Dịch">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icon/Trans.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextArea fx:id="TransIn" layoutX="33.0" layoutY="138.0" prefHeight="353.0" prefWidth="325.0" promptText="Type here" stylesheets="@application.css" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextArea>
+            <TextArea fx:id="TransOut" editable="false" layoutX="358.0" layoutY="138.0" prefHeight="353.0" prefWidth="325.0" stylesheets="@application.css" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></TextArea>
+         </children></Pane>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/book.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

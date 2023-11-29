@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d11b8a22-21a9-4d10-a51b-6d32990db35f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsapi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsapi.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/voices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/ControllerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/ControllerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/DictionaryCommandline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/DictionaryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/Game1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/Game1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/Game2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/Game2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/GameOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/GameOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/GameUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/GameUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/Gamecmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/Gamecmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Add.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Add.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Api.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Api.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Game1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Game1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Game2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Game2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/GameUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/GameUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Icon/Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Icon/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Icon/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Search.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/highscore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/highscore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/option.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/option.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/ques.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/ques.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/ques2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/ques2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voice.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/voice.mp3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2YqysRq7tuXhWkbTNKb3m7pY8gI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/USER/Downloads/voicerss_tts_java/voicerss_tts.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Downloads\App (1)\App\target" />
+      <recent name="C:\Users\USER\Downloads\App (1)\App\src\main\java" />
+      <recent name="C:\Users\USER\Downloads\App (1)\App\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d11b8a22-21a9-4d10-a51b-6d32990db35f" name="Changes" comment="" />
+      <created>1701267612526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701267612526</updated>
+    </task>
+    <servers />
+  </component>
+</project>

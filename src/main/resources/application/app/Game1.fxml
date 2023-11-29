@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="container" stylesheets="@application.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.app.Game1Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/Background.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="question" layoutX="50.0" layoutY="181.0" prefHeight="118.0" prefWidth="700.0" styleClass="game-label" text="question" wrapText="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="50.0" layoutY="75.0" prefHeight="55.0" prefWidth="200.0" styleClass="score-label" stylesheets="@application.css" text="   Score :   0" textFill="#e1ff00" />
+      <Label fx:id="turn" layoutX="319.0" layoutY="75.0" prefHeight="55.0" prefWidth="162.0" styleClass="score-label" stylesheets="@application.css" text="Turn: 3" />
+      <Button fx:id="next" contentDisplay="GRAPHIC_ONLY" layoutX="714.0" layoutY="75.0" mnemonicParsing="false" onAction="#handleOnClickPlay" prefHeight="15.0" prefWidth="54.0" styleClass="game-button" stylesheets="@application.css" text="Next">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="7.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/Daco_752371.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane fx:id="timer" layoutX="50.0" layoutY="40.0" prefHeight="5.0" prefWidth="700.0" styleClass="game-timer" stylesheets="@application.css" />
+      <Button fx:id="optionA" layoutX="50.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="100.0" prefWidth="300.0" styleClass="game-word-button" stylesheets="@application.css" text="A" textAlignment="CENTER" />
+      <Button fx:id="optionB" layoutX="450.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="100.0" prefWidth="300.0" styleClass="game-word-button" stylesheets="@application.css" text="B" />
+      <Button fx:id="optionD" layoutX="450.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="100.0" prefWidth="300.0" styleClass="game-word-button" stylesheets="@application.css" text="D" />
+      <Button fx:id="optionC" layoutX="50.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleOptionClick" prefHeight="100.0" prefWidth="300.0" styleClass="game-word-button" stylesheets="@application.css" text="C" />
+      <Pane fx:id="gameOver" layoutX="200.0" layoutY="100.0" prefHeight="400.0" prefWidth="400.0" styleClass="game-pane">
+         <children>
+            <Label layoutX="100.0" layoutY="80.0" styleClass="game-label" text="Game Over" />
+            <Label fx:id="lastScore" layoutX="39.0" layoutY="156.0" prefHeight="44.0" prefWidth="348.0" styleClass="game-label" text="Your Score :" />
+            <Label fx:id="HighScore" layoutX="39.0" layoutY="227.0" prefHeight="44.0" prefWidth="348.0" styleClass="game-label" text="High Score :" />
+            <Button fx:id="playAgain" layoutX="25.0" layoutY="310.0" mnemonicParsing="false" onAction="#handlePlayAgainButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" text="Retry" />
+            <Button fx:id="exit" layoutX="225.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleExitButtonClick" prefHeight="55.0" prefWidth="150.0" styleClass="game-word-button" text="Exit" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

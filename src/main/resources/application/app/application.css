@@ -1,0 +1,236 @@
+.backgroundColor{
+	background: linear-gradient(to bottom right, #2119B4 11.2%, #FD1D1D 55.2%, #FCB045 91.1%);
+}
+
+.text-field{
+  -fx-background-color: transparent;
+  -fx-text-fill: #2FA3E4;
+  -fx-font-weight: bold;
+  -fx-font-size: 13;
+  -fx-border: none ;
+  -fx-font-family: "Poppins";
+}
+
+#explainField{
+  -fx-background-color: transparent;
+  -fx-text-fill: #2FA3E4;
+  -fx-font-weight: bold;
+  -fx-font-size: 15;
+  -fx-border: none ;
+  -fx-font-family: "Poppins";
+}
+
+#SwitchPage{
+  -fx-background-color: transparent;
+  -fx-text-fill: #2FA3E4;
+  -fx-font-weight: bold;
+  -fx-font-size: 15;
+  -fx-border-color: #2FA3E4; 
+  -fx-font-family: "Poppins";
+  -fx-background-radius: 25;
+  -fx-border-radius: 25;
+}
+
+.tooltip {
+    -fx-text-fill: #2FA3E4;
+    -fx-font-size: 10;
+}
+
+.dialog > *.content.label {
+	-fx-font-size: 13;
+}
+
+.list-cell{
+	-fx-text-fill: #2FA3E4;
+    -fx-font-size: 20;
+    -fx-font-weight: 700;
+    -fx-padding: 5;
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-font-family: "Poppins";
+    -fx-font-weight: bold;
+}
+
+.pane{
+	-fx-border-color: #2FA3E4; 
+}
+
+.label{
+	-fx-background-color: transparent;
+  	-fx-text-fill: #2FA3E4;
+  	-fx-font-weight: bold;
+  	-fx-font-size: 20;
+  	-fx-border: none ;
+  	-fx-font-family: "Poppins";
+}
+
+#pageLabel{
+	-fx-background-color: transparent;
+  	-fx-text-fill: #2FA3E4;
+  	-fx-font-weight: bold;
+  	-fx-font-size: 17;
+  	-fx-border: none ;
+  	-fx-font-family: "Poppins";
+}
+
+.list-cell:even, .list-cell:odd{
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2FA3E4;
+}
+
+.list-view{
+	-fx-border-color: #2FA3E4; 
+	-fx-text-fill: #2FA3E4;
+}
+
+#TransIn, #TransOut{
+	-fx-border-color: #2FA3E4;
+	-fx-font-size: 20;
+	-fx-text-fill: #2FA3E4;
+	-fx-font-weight: bold;
+}
+
+#TranslatePane{
+	-fx-border-color: #2FA3E4;
+	-fx-background-radius: 25 25 0 0;
+    -fx-border-radius: 25 25 0 0;
+}
+
+.button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #2FA3E4;
+    -fx-font-size: 16;
+    -fx-font-weight: 700;
+    -fx-padding: 5;
+    -fx-font-family: "Poppins";
+    -fx-font-weight: bold;
+}
+
+#Trans{
+	-fx-background-color: #FFFFFF;
+    -fx-text-fill: #2FA3E4;
+    -fx-font-size: 16;
+    -fx-font-weight: 700;
+    -fx-padding: 5;
+    -fx-font-family: "Poppins";
+    -fx-font-weight: bold;
+	-fx-border-color: #2FA3E4;
+	-fx-background-radius: 25;
+	-fx-border-radius: 25;
+}
+
+.button:hover{
+    -fx-background-color: #edeff1;
+    -fx-effect: dropshadow(three-pass-box, #2b2b2b, 3, 0, 0, 1) ;
+}
+
+.button:pressed{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: #dfe6e9;
+}
+.game-button{
+    -fx-effect: dropshadow(three-pass-box, rgb(0,0,0,0.4), 5, 0, 0, 0);
+    -fx-background-radius: 5px;
+    -fx-background-color:  linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+}
+.game-button:hover{
+    -fx-background-color:  linear-gradient(to bottom, #00c6fb 0%, #005bea 100%);
+}
+.game-button:pressed{
+    -fx-background-color:  linear-gradient(to bottom, #00c6fb 0%, #005bea 100%);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+.game-word-button{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+    -fx-background-radius: 15px;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 40px;
+    -fx-font-weight: 500;
+    -fx-background-color:  linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    -fx-font-family: "Berlin Sans FB"; /* Set font family */
+    -fx-font-style: normal; /* Set font style */
+    -fx-alignment: center; /* Chỉnh văn bản vào chính giữa */
+    -fx-content-display: center; /* Hiển thị nội dung ở giữa button */
+}
+.game-word-button:hover{
+    -fx-effect: dropshadow(three-pass-box, rgb(47, 163, 228), 15, 0, 0, 0);
+    -fx-background-color: linear-gradient(to top left, #2fa3e4, #00d4ff);
+}
+.game-word-button:pressed{
+    -fx-background-color:  linear-gradient(to bottom, #00c6fb 0%, #005bea 100%);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(three-pass-box, rgb(47, 163, 228), 10, 0, 0, 0);
+}
+.correct-answer {
+    -fx-border-color: #4FFFB0; /* Màu sắc của khung khi đúng */
+    -fx-border-width: 3px; /* Độ dày của khung */
+    -fx-background-radius: 15; /* Làm tròn góc của nền */
+    -fx-border-radius: 15; /* Làm tròn góc của viền */
+}
+
+.wrong-answer {
+    -fx-border-color: #fd5c63; /* Màu sắc của khung khi sai */
+    -fx-border-width: 3px; /* Độ dày của khung */
+    -fx-background-radius: 15; /* Làm tròn góc của nền */
+    -fx-border-radius: 15; /* Làm tròn góc của viền */
+}
+
+.game-pane{
+    -fx-background-color:  linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    -fx-effect: dropshadow(three-pass-box, #2fa3e4, 10, 0, 0, 0);
+    -fx-background-radius: 15;
+    -fx-font-family: "Berlin Sans FB"; /* Set font family */
+    -fx-border-radius: 15;
+    -fx-text-fill: white; /* Đặt màu chữ là màu trắng */
+}
+#game-timer{
+    -fx-border-color: #ffff00;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-radius: 3px;
+    -fx-effect: dropshadow(three-pass-box, rgb(47, 163, 228), 8, 0, 0, 0);
+}
+
+#game-timer-last{
+    -fx-border-color: #b22a00;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-radius: 3px;
+    -fx-effect: dropshadow(three-pass-box, rgb(229, 138, 106), 8, 0, 0, 0);
+}
+.score-label{
+    -fx-font-size: 30px;
+    -fx-text-fill: yellow;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+.game-label {
+    -fx-text-fill: white; /* Đặt màu chữ là màu trắng */
+    -fx-font-family: "Berlin Sans FB"; /* Set font family */
+    -fx-font-size: 40px; /* Đặt kích thước chữ */
+    -fx-font-family: "Berlin Sans FB"; /* Set font family */
+    -fx-font-weight: normal;
+    -fx-wrap-text: true;
+}
+/* Add your CSS styles here */
+
+
+#GameButton{
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #2FA3E4;
+    -fx-font-size: 15;
+    -fx-font-weight: 700;
+    -fx-padding: 5;
+    -fx-font-family: "Poppins";
+    -fx-font-weight: bold;
+    -fx-border-color: #2FA3E4;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 150px;
+}
