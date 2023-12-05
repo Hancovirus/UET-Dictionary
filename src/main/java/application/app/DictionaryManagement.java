@@ -77,7 +77,6 @@ public class DictionaryManagement {
             if (n <= 0) {
                 System.out.println("Invalid input. Please enter valid number.");
             }
-
         } while (n <= 0);
         input.nextLine();
         for (int i = 0; i < n; i++) {

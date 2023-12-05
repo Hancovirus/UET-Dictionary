@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d11b8a22-21a9-4d10-a51b-6d32990db35f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Game1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Game1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/Game2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/Game2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application/app/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application/app/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/app/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/app/DictionaryManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/USER/Downloads/voicerss_tts_java/voicerss_tts.jar",
+    "last_opened_file_path": "C:/Users/USER/Desktop/SceneBuilder.lnk",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -45,6 +42,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\GitHub\UET-Dictionary\src\main\resources\application\app\Icon" />
       <recent name="C:\Users\USER\Downloads\App (1)\App\target" />
       <recent name="C:\Users\USER\Downloads\App (1)\App\src\main\java" />
       <recent name="C:\Users\USER\Downloads\App (1)\App\src" />
